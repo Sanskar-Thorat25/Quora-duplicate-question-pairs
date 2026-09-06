@@ -1,0 +1,12 @@
+@"
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env
+.streamlit/secrets.toml
+"@ | Set-Content .gitignore
